@@ -21,6 +21,7 @@ public class UXSVGTests extends FlowPanel implements MyLienzoTest, HasMediators,
         final String uri = LienzoTestsResources.INSTANCE.envelopeIconSVG().getSafeUri().asString();
         final Picture picture = new Picture( uri );
         picture.setX( 100 ).setY( 100 );
+        picture.getNodeTransform().scale( 0.5 );
         layer.add( picture );
     }
 

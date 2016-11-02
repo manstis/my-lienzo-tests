@@ -2,6 +2,7 @@ package org.roger600.lienzo.client;
 
 import com.ait.lienzo.client.core.shape.Layer;
 import com.ait.lienzo.client.core.shape.Rectangle;
+import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.dom.client.Style;
 import com.google.gwt.event.dom.client.*;
@@ -9,7 +10,7 @@ import com.google.gwt.user.client.ui.FocusPanel;
 import com.google.gwt.user.client.ui.RootPanel;
 import org.roger600.lienzo.client.panel.FocusableLienzoPanelView;
 
-public class LienzoKeyboardTests /*implements EntryPoint*/ {
+public class LienzoKeyboardTests implements EntryPoint {
 
     private FocusableLienzoPanelView panel = new FocusableLienzoPanelView( 1200,900 );
     //private LienzoPanel panel = new LienzoPanel(1200, 900);
